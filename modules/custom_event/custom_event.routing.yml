@@ -1,0 +1,7 @@
+custom_event.page:
+  path: '/custom-event'
+  defaults:
+    _title_callback: '\Drupal\custom_event\Controller\CustomEventController::title'
+    _controller: '\Drupal\custom_event\Controller\CustomEventController::page'
+  requirements:
+     _access: 'TRUE'

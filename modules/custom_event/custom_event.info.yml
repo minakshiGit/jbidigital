@@ -1,0 +1,5 @@
+name: Custom Event
+type: module
+description: 'Custom Event'
+core: 8.x
+package: Custom
